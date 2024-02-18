@@ -451,7 +451,7 @@ mini_harmony = minimal_set(harmony_set)
 all_arts = misc_set + mini_sun + mini_moon + mini_venom + mini_harmony
 
 work_set, graph = prepare_annealing(all_arts)
-work_tree, _ = multi_anneal(work_set, graph, 0, 10)
+work_tree = multi_anneal(work_set, graph, 0, 10)[0]
 assembled = assemble(work_tree)
 totals_string, sign_totals, dip_totals, dip_sign_totals, dip_max_index = get_cost_info(assembled)
 
