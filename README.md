@@ -3,9 +3,7 @@ A python script to optimize the Meridian layout in the game The Matchless Kung-F
 
 ## How to use
 Download the script SuperstringMeridianMCMC.py to your local system. 
-You will need a python environment with the following packages installed:
-* numpy
-* networkx
+You will need a python environment with the package `networkx` installed.
 
 Scroll down to the comment saying "User-Customizable Block" to configure 
 your setup. In the lists of Inner Kung-Fu arts, comment out the lines for 
@@ -31,8 +29,8 @@ itself as a series of lines. These are to be read as follows:
 1. The symbols ⟁⧈⭗ are the Meridian nodes themselves. Read it from left
 to right and connect the meridian to these nodes in that order. Each line 
 is a Meridian starting from the center.
-2. A digit means that two meridians connect at this point: The Meridian
-that ends with that digit needs to be connected to the symbol *following*
+2. A digit means that meridians connect at this point: The Meridians
+that end with that digit needs to be connected to the symbol *following*
 the digit in the other Meridian
 3. The Meridian that doesn't end in a digit needs to return to the center
 after its last symbol
