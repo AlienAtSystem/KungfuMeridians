@@ -419,13 +419,18 @@ moon_set = [
 venom_set = [
     ('⧈⧈⟁⭗⟁', 1),  # Poison Proof Spell
     ('⭗⟁⧈⟁⭗', 2),  # Anti-Toxin Spell
+    ('⧈⧈⭗⟁⟁', 2),  # Art of Soul Deprivation
     ]
 harmony_set = [
     ('⟁⧈⭗⟁⧈', 1),  # Art of Harmony
     ('⭗⧈⟁⭗⟁⟁', 1),  # Drunken Immortal
     ('⭗⟁⟁', 1),  # Art of Drunkness
-    ('⭗⟁⧈⭗⟁⧈', 1),  # Yi Jin Jing
+    ('⭗⟁⧈⭗⟁⧈', 2),  # Yi Jin Jing
     ('⭗⭗⟁⧈', 1),  # Lotus in Heart
+    ('⟁⟁⧈⧈⭗⭗', 1),  # Demon Slayer Arhat
+    ('⧈⭗⟁⭗⟁⭗⧈', 2),  # Wu Dang Harmony
+    ('⟁⟁⟁⧈⧈⧈⭗⭗⭗', 2),  # Diamond Body
+    ('⭗⧈⧈⟁⧈⧈⭗⭗⭗', 3),  # Yi Jin Jing (Brahma)
     ]
 misc_set = [
     "⟁⧈⭗⧈⟁",  # Bionic Pentaform
@@ -437,6 +442,10 @@ misc_set = [
     '⧈⧈⟁⟁',  # Turtle Preservation
     '⧈⟁⭗⭗⟁⧈',  # Traceless Heart
     '⟁⧈⟁⧈⟁',  # Blood Circulation
+    '⧈⭗⧈',  # Beastmaster
+    '⭗⟁⧈⭗⧈⟁⧈⟁⭗⧈⭗⟁⟁⧈⭗⟁⭗⧈',  # True Method
+    '⟁⧈⭗⭗',  # Dragon Tiger Hunt
+    '⟁⭗⧈⧈⭗⟁',  # Purple Cloud Qi
     ]
 
 # To reduce the number of signs, we reduce the elemental arts down while retaining the maximum elemental chi bonus
