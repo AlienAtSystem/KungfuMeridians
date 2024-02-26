@@ -415,6 +415,7 @@ moon_set = [
     ('⟁⭗⧈⭗⟁', 3),  # Insufficient Power
     ('⟁⧈⧈⭗⧈⟁', 2),  # Tranquility Spell
     ('⭗⭗⟁⭗⧈⭗', 2),  # Stars Divine
+    ('⟁⟁⧈⭗⭗', 2)  # Yongye Killing Method
     ]
 venom_set = [
     ('⧈⧈⟁⭗⟁', 1),  # Poison Proof Spell
@@ -428,7 +429,6 @@ harmony_set = [
     ('⭗⟁⧈⭗⟁⧈', 2),  # Yi Jin Jing
     ('⭗⭗⟁⧈', 1),  # Lotus in Heart
     ('⟁⟁⧈⧈⭗⭗', 1),  # Demon Slayer Arhat
-    ('⧈⭗⟁⭗⟁⭗⧈', 2),  # Wu Dang Harmony
     ('⟁⟁⟁⧈⧈⧈⭗⭗⭗', 2),  # Diamond Body
     ('⭗⧈⧈⟁⧈⧈⭗⭗⭗', 3),  # Yi Jin Jing (Brahma)
     ]
@@ -446,6 +446,7 @@ misc_set = [
     '⭗⟁⧈⭗⧈⟁⧈⟁⭗⧈⭗⟁⟁⧈⭗⟁⭗⧈',  # True Method
     '⟁⧈⭗⭗',  # Dragon Tiger Hunt
     '⟁⭗⧈⧈⭗⟁',  # Purple Cloud Qi
+    '⧈⭗⟁⭗⟁⭗⧈',  # Wu Dang Harmony
     ]
 
 # To reduce the number of signs, we reduce the elemental arts down while retaining the maximum elemental chi bonus
